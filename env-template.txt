@@ -1,0 +1,18 @@
+# Copy this file to create your .env files
+# DO NOT commit .env files to version control!
+
+# For backend (.env in vectorshift-integration/backend/):
+HUBSPOT_CLIENT_ID=your_new_hubspot_client_id_here
+HUBSPOT_CLIENT_SECRET=your_new_hubspot_client_secret_here
+REDIS_URL=redis://localhost:6379/0
+REDIRECT_URI=http://localhost:8000/api/integrations/hubspot/callback
+PORT=8000
+
+# For frontend (.env.local in vectorshift-integration/frontend/):
+REACT_APP_API_BASE_URL=http://localhost:8000/api
+
+# Setup Instructions:
+# 1. Copy this template to .env files in the respective directories
+# 2. Replace placeholder values with your actual NEW credentials
+# 3. Never commit .env files - they're now protected by .gitignore
+# 4. Get new HubSpot credentials from: https://developers.hubspot.com/ 
