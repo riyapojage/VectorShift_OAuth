@@ -155,18 +155,3 @@ redis-cli ping
 ## 📝 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🆘 Support
-
-For detailed setup instructions and troubleshooting, see the [main implementation guide](./vectorshift-integration/README.md).
-
-### Common Issues
-- **Redis Connection**: See Windows installation guide in the main README
-- **OAuth Callback**: Ensure redirect URI matches HubSpot app settings
-- **CORS Issues**: Check API base URL configuration
-
----
-
-**Built with ❤️ for VectorShift Platform**
-
-*A robust, scalable, and secure OAuth integration system designed for enterprise applications.* 
